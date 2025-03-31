@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solicitar Entrevista</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">HR-MZA</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuNavegacion" aria-controls="menuNavegacion" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menuNavegacion">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
+            <li class="nav-item"><a href="servicios.html" class="nav-link">Servicios</a></li>
+            <li class="nav-item"><a href="ingreso.html" class="nav-link">Ingreso</a></li>
+            <li class="nav-item"><a href="solicitar.html" class="nav-link active">Solicitar Entrevista</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container py-5">
+    <h1 class="text-center">Solicitar Entrevista</h1>
+    <p id="mensaje-usuario" class="text-center"></p>
+    <div id="servicios-container" class="row"></div>
+    <hr class="my-4">
+    <h2 class="text-center mt-4">Agenda de temas para la entrevista</h2>
+    <div id="solicitud-container" class="mt-5">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Servicio</th>
+            <th>Relevancia</th>
+            <th>Acción</th>
+          </tr>
+        </thead>
+        <tbody id="solicitud-list"></tbody>
+      </table>
+      <div class="text-center">
+        <button id="enviar-solicitud" class="btn btn-primary">Enviar Solicitud</button>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 text-left">
+          <p>Email: <a href="mailto:gustavo.ortego@gmail.com">gustavo.ortego@gmail.com</a></p>
+          <p>Tel (WhatsApp): <a href="https://wa.me/5492613435826" target="_blank" rel="noopener noreferrer">+549 261 3435826</a></p>
+        </div>
+        <div class="col-md-4 text-center">
+          <p>HR-MZA Consultora</p>
+          <p>Luján de Cuyo, Mendoza, Argentina</p>
+        </div>
+        <div class="col-md-4 text-right">
+          <p>&copy; Todos los derechos reservados</p>
+          <p>Diseño web: <a href="https://geo-readymade.com" target="_blank" rel="noopener noreferrer">geo-readymade.com</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script src="js-custom/emailjs-config.js"></script>
+  <script src="js-custom/solicitar.js"></script>
+</body>
+</html>

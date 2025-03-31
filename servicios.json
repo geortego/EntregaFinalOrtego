@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "nombre": "Diseño Organizacional",
+    "descripcion": "Solicito agendar este tema para ser abordado la entrevista.",
+    "imagen": "./fotos/teamwork2.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Desarrollo Organizacional",
+    "descripcion": "Solicito agendar este tema para ser abordado la entrevista.",
+    "imagen": "./fotos/capacit3.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Capacitación y Desarrollo",
+    "descripcion": "Solicito agendar este tema para ser abordado la entrevista.",
+    "imagen": "./fotos/capacit4.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Gestión del Clima Laboral",
+    "descripcion": "Solicito agendar este tema para ser abordado la entrevista.",
+    "imagen": "./fotos/climalab1.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Evaluación del Desempeño",
+    "descripcion": "Solicito agendar este tema para ser abordado la entrevista.",
+    "imagen": "./fotos/eval-des1.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Desarrollo de Equipos de Trabajo",
+    "descripcion": "Solicito agendar este tema para ser abordado la entrevista.",
+    "imagen": "./fotos/teamwork1.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Gestión de la Selección",
+    "descripcion": "Solicito agendar este tema para ser abordado la entrevista.",
+    "imagen": "./fotos/analisis-cv.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "Contacto por otros servicios",
+    "descripcion": "Sr. cliente: si clickea en esta opción, lo contactaremos a la brevedad para que nos comente respecto de sus necesidades. ",
+    "imagen": "./fotos/eval-des-2.jpg"
+  }
+]
